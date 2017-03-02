@@ -1,0 +1,223 @@
+/***top-header***/
+#slide-area{
+	background:#27AE61;
+}
+.slide-top .navbar-default {
+    background-color:#27AE61;
+    border-color: #27AE61;
+}
+.slide-top .navbar-default .navbar-brand {
+    color: #fefffe;
+    font-size: 40px;
+    text-transform: capitalize;
+   
+    font-family: 'Bitter', serif;
+}
+.slide-top .navbar-default .navbar-nav > li > a {
+    color: #fefffe;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.slide-top  .navbar {
+    margin-bottom: 0px;
+}
+/***top-header***/
+
+/***carousel***/
+#carousel-sec{}
+@media screen and (min-width: 768px){
+
+.carousel-caption {
+    right: 15%;
+    left: 8% !important;
+    padding-bottom: 30px;
+    top: 25%!important;
+    text-align: left!important;
+}
+
+.carousel-caption h2{
+	font-size: 60px;
+	font-family: 'Sintony', sans-serif;
+	text-transform: capitalize;
+	color: rgb(20, 121, 64);
+}
+.carousel-caption p{
+	font-size: 20px;
+	font-family: 'Quattrocento', serif;
+	color: #080807;
+    margin-bottom: 43px;
+    margin-top: 15px;
+}
+.carousel-caption .btn {
+	display: inline-block;
+    padding: 10px 35px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #27AE61;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    font-family: 'Quattrocento', serif;
+}
+
+.carousel-caption .btn:hover{
+	background: #fff;
+	color: black;
+}
+/***carousel***/
+/***our-team***/
+#our-team{
+	background:#F8F8F8;
+	padding: 50px 0px;
+}
+.team-header{
+	text-align: center;
+	padding-bottom:20px; 
+}
+.team-header h2{
+	border-bottom: 2px solid #dadada;
+}
+.team-header h2 span{
+	font-size: 50px;
+	color:#27AE61;
+	text-transform: uppercase;
+	font-family: 'Sintony', sans-serif;
+	font-weight: bold;
+	transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    cursor: pointer;
+
+}
+.team-header p{
+	font-size: 14px;
+	color: #8c8a8a;
+	font-family: 'Quattrocento', serif;
+}
+.team-header h2 span:hover{
+	color:#72757f;
+}
+.team-text .thumbnail h3{
+	font-family: 'Sintony', sans-serif;
+	text-transform: capitalize;
+    font-size: 30px;
+    cursor: pointer;
+    
+
+
+}
+.team-text .thumbnail p{
+	font-size: 15px;
+	color: #8c8a8a;
+	font-family: 'Quattrocento', serif;
+}
+.team-text .thumbnail a i{
+	border: 1px solid #003159;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background:#003159;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.team-text .thumbnail {
+    display: block;
+
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    /* width: 282px; */
+    height: 203px;
+    padding: 5px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    
+}
+.team-text .thumbnail:hover{
+	
+	border: 5px solid #e2dfd8;
+}
+.team-text{
+	position: relative;
+}
+.team-img img{
+	cursor: pointer;
+}
+
+.gallery-img{
+	position: relative;
+	cursor: pointer;
+}
+
+/***our-team***/
+/***our -gallery***/
+#our-gallery{
+	padding: 60px 0px;
+}
+.secound-gallery{
+	padding-top: 25px;
+}
+/***our -gallery***/
+
+/***our-pricing***/
+#our-pricing{
+	background:#F8F8F8;
+	padding: 50px 0px;
+}
+.tab-hed{
+	    text-align: center;
+    color: white;
+    background:#27AE61;
+    text-transform: uppercase;
+        font-size: 60px;
+}
+.tab-hedp{
+	text-align: center;
+    color: white;
+    background:rgb(20, 121, 64);
+    text-transform: capitalize;
+        font-size: 18px;
+        font-family: 'Quattrocento', serif;
+}
+.tab-btn .btn{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	background:rgb(20, 121, 64);
+	padding: 10px 30px;
+	font-family: 'Sintony', sans-serif;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+.tab-btn .btn:hover{
+	background: #fff;
+	color: black;
+	font-family: 'Sintony', sans-serif;
+}
+/***our-pricing***/
+
+/***our-contact***/
+
+#our-cont{ 
+padding: 50px 0px;
+ }
+
+/***our-contact***/
+
+/***queries***/
+
+/***queries***/

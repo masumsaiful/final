@@ -1,0 +1,208 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.slide-top .navbar-default .navbar-brand {
+    color: #fefffe;
+    font-size: 30px;
+}
+.slide-top .navbar-default .navbar-nav > li > a {
+    
+    font-size: 11px;
+    
+}
+.carousel-caption h2 {
+    font-size: 40px;
+
+    }
+.carousel-caption p {
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+    color: #080807;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.carousel-caption .btn {
+    padding: 6px 20px;
+    margin-left: 10px;
+    font-size: 14px;
+
+}
+  .team-text .thumbnail h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.team-text .thumbnail p {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.team-text .thumbnail a i {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    margin-right: 3px;
+    font-size: 10px;
+}
+.team-text .thumbnail {
+    height: 167px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: 167px;
+}
+.tab-hed {
+    font-size: 40px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .team-header{
+ 	text-align: center;
+ 	margin-top: 40px;
+ 	margin-bottom: 30px;
+ }
+    .team-header h2{
+    	text-transform: uppercase;
+    font-size: 24px;
+    color: #27AE61;
+    }
+    .tab-hed{
+    	font-size: 30px;
+    	background:#27AE61;
+    	text-transform: uppercase;
+    	text-align: center;
+    	color: #fff;
+    }
+    .tab-hedp{
+    	font-size: 20px;
+    	background:rgb(20, 121, 64);
+    	text-transform: capitalize;
+    	text-align: center;
+    	color: #fff;
+    }
+    .team-text .thumbnail a i{
+	border: 1px solid #003159;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background:#003159;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.team-text .thumbnail h3{
+	font-family: 'Sintony', sans-serif;
+	text-transform: capitalize;
+    font-size: 25px;
+    cursor: pointer;
+
+
+
+}
+.team-text .thumbnail p{    font-size: 15px;
+    max-width: 349px;
+    text-align: justify
+    }
+.gallery-img{
+	margin-bottom: 20px;
+}
+.tab-btn .btn{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+	background:rgb(20, 121, 64);
+	padding: 6px 20px;
+	font-family: 'Sintony', sans-serif;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+.tab-btn .btn:hover{
+	background: #fff;
+	color: black;
+	font-family: 'Sintony', sans-serif;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.carousel-caption .btn {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-left: 5px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #27AE61;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+     font-family: 'Sintony', sans-serif;
+}
+
+.carousel-caption .btn:hover{
+	background: #fff;
+	color: black;
+}
+.carousel-caption p{
+	font-size: 12px;
+	color:  #080807;
+}
+.carousel-caption h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(20, 121, 64);
+}
+.carousel-caption{
+	top: 15%;
+	
+}
+	
+}
+@media only screen and (max-width: 480px){
+	element.style {
+}
+.carousel-caption .btn {
+    text-shadow: none;
+}
+.carousel-caption .btn {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-left: 5px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #27AE61;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+     font-family: 'Sintony', sans-serif;
+}
+
+.carousel-caption .btn:hover{
+	background: #fff;
+	color: black;
+}
+.carousel-caption h2{
+	font-size: 30px;
+	text-transform:capitalize;
+	color: rgb(20, 121, 64);
+}
+.carousel-caption p {
+	display: none;
+
+}
+}
